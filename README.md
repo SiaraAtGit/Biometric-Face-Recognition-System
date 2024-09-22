@@ -2,6 +2,7 @@
 The Biometric Face Recognition System is a real-time facial recognition application that leverages advanced image processing and machine learning techniques for user authentication. The system is designed for high accuracy and efficiency, using a combination of state-of-the-art libraries and algorithms.
 
 Core Features:
+
 Real-Time Face Detection:
 Utilizes OpenCV for live video capture and face detection.
 Employs Haar Cascades or HOG-based models for accurate face localization.
@@ -30,10 +31,4 @@ Technology Stack:
 >face_recognition/dlib: For face encoding and recognition.
 >NumPy: For efficient matrix computations and data handling.
 
-System Workflow:
->Capture video frames using OpenCV.
->Detect faces in real-time.
->Perform facial landmark detection for precise feature extraction.
->Encode the face and compare it with the database for recognition.
->Return authentication results in real time.
->This system provides a robust, high-performance solution for biometric face recognition, adaptable for various applications like security systems, access control, and user verification.
+
